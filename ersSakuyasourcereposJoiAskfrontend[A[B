@@ -1,0 +1,278 @@
+[33mcommit 1f2618e0c54a9e3a406c2bb79f6eed9e55834d55[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Sakuya <zhangyunqi@encootech.onmicrosoft.com>
+Date:   Mon May 20 17:29:44 2024 +0800
+
+    增加默认话题
+
+[33mcommit 4e6cab5dcf5c157ab71715ca587f2923734c533f[m
+Author: Sakuya <zhangyunqi@encootech.onmicrosoft.com>
+Date:   Mon May 20 16:41:55 2024 +0800
+
+    增加前端配置支持
+
+[33mcommit 88c0946094b65aa50861cb957fc9a3e1e6d3a334[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Mon May 6 00:46:58 2024 +0800
+
+    fix: archive button
+
+[33mcommit 7dab4ff06de718116b94e51b7aa3bbe387cfaa44[m
+Author: Xinrea <xinreas@outlook.com>
+Date:   Tue Apr 23 12:06:27 2024 +0800
+
+    feat: replace emoji with 🐵
+
+[33mcommit d0e31764a03b676c9e3cb72717a0e77883ed4658[m
+Author: Xinrea <xinreas@outlook.com>
+Date:   Tue Apr 23 12:02:07 2024 +0800
+
+    fix: emoji reseted after archive op
+
+[33mcommit 75ce9b29502a9849519ae342b95249de7dd315be[m
+Author: Xinrea <xinreas@outlook.com>
+Date:   Sat Apr 20 13:56:25 2024 +0800
+
+    feat: add emoji support
+
+[33mcommit ad2a2906ff62762d495d49ba649348d96dbd3d74[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Wed Feb 21 17:53:11 2024 +0800
+
+    feat: add archive button for logged in user
+
+[33mcommit 06d95708bdabe52612b842b2f16acfd4e3f607d9[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Sat Feb 17 09:59:51 2024 +0800
+
+    feat: add uploading prompt after submit
+
+[33mcommit 3cfe71df0b31759d5076b5907cedf648f0ad4b58[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Wed Mar 8 14:07:51 2023 +0800
+
+    feat: 鼠标移出卡片时自动复原
+
+[33mcommit e4429b3a21d3ed20db0527cb02ec45ac11b5f178[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Thu Feb 23 21:26:41 2023 +0800
+
+    fix: card content font
+
+[33mcommit 107ec0a4b96001be0782d541a75045743834323e[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Sat Nov 12 13:19:48 2022 +0800
+
+    feat: Remove the seperate preview page
+    - fixed card rotate effect while hover attached image
+    - ajusted card effect
+
+[33mcommit b3a495d5624a4f4bf111e047daf6944462710fe5[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Sun Nov 6 14:11:13 2022 +0800
+
+    feat: Remove default tag in frontend
+    后端数据库在初始化时会建立一个默认话题；如果前端获取话题列表失败或者正在获取，不应该给一个默认值，防止将这个默认值提交给后端的情况出现
+
+[33mcommit f8a92605dd9d7ff71547a629c063415f4440fb16[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Sun Oct 30 12:14:33 2022 +0800
+
+    feat: 进一步调整了彩虹卡片样式
+
+[33mcommit 228c1c581cd65c92ce25f395a44340f39794d0ab[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Sat Oct 29 21:15:31 2022 +0800
+
+    fix: 彩虹卡片显示错误
+
+[33mcommit 115b48b7779488135cd7c9686d93758ca8e137c1[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Sat Oct 29 13:00:34 2022 +0800
+
+    feat: Add texture for rainbow card
+
+[33mcommit fe9db9b91a1ebdf5979cd05b4879d6e4fd954e33[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Sat Oct 29 09:18:05 2022 +0800
+
+    fix: scrollbar & watermark opacity
+
+[33mcommit 21fdfe36c8309ab0c432ea862a246e3d160e429d[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Fri Oct 28 23:18:30 2022 +0800
+
+    🎉feat: 卡片重新设计 & Tailwind CSS引入
+    - 全新的卡片设计，灵感来自于明信片
+    - 引入Tailwind CSS，方便主题定制
+    - 取消了提问隐藏设定
+
+[33mcommit aca7e3eba3c4131ab1573598b17cf04cb157f92e[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Wed Oct 12 08:07:00 2022 +0800
+
+    Create LICENSE
+
+[33mcommit a3675d50daa6c4d5106a3264869457bce4e9771e[m
+Merge: 00ca5b3 d7b387e
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Sat Sep 24 06:29:49 2022 +0800
+
+    Merge pull request #2 from Xinrea/FIX_publish_filter
+    
+    fix: Rainbow&TagDetail Page publish filter
+
+[33mcommit d7b387e8a9fa416bf74c7fa2b8f0d15d08e28500[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Sat Sep 24 06:07:08 2022 +0800
+
+    fix: Rainbow&TagDetail Page publish filter
+    修复了登录状态下前端页面显示了所有提问的BUG
+    修复了从提问卡片点击话题转到话题页面时，话题为undefined的BUG
+
+[33mcommit 00ca5b3f8901648ef351062be8878a904adead28[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Wed Aug 17 21:45:15 2022 +0800
+
+    fix: login fail model
+
+[33mcommit 35e934501593771ea03b9e9dd33c9d6209ea9004[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Sat Aug 13 14:31:47 2022 +0800
+
+    fix: tag detail
+
+[33mcommit a99b45e95b0a9d7e30c2dbae519341ef702a3f22[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Sat Aug 13 14:09:33 2022 +0800
+
+    fix: Admin page background wrapper
+
+[33mcommit 63273e585c155af2d6634da2beb7cb8ad2d7cf13[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Sat Aug 13 12:53:07 2022 +0800
+
+    feat: Update APIs
+
+[33mcommit 87a405f939f9f0463cbd40beca6d24eb5e1cf857[m
+Author: Xinrea <xinreas@outlook.com>
+Date:   Sun Jun 12 09:12:28 2022 +0000
+
+    feat: Create folder for uploaded images
+
+[33mcommit e8918e50f2f370a071a2f1539096399702868b97[m
+Author: Xinrea <xinreas@outlook.com>
+Date:   Sun Jun 12 06:57:01 2022 +0000
+
+    feat: Add favicon
+
+[33mcommit 92b172f309c75f9c247d8d286c3f49132d7efc70[m
+Author: Xinrea <xinreas@outlook.com>
+Date:   Sun May 22 07:58:28 2022 +0000
+
+    feat: Change to fixed api address
+
+[33mcommit 1b5abc1770c2ed3f99263c7d00c10f7e8ef705df[m
+Author: Xinrea <xinreas@outlook.com>
+Date:   Mon May 2 04:51:29 2022 +0000
+
+    Rename project
+
+[33mcommit 29cab1297f9fa6f15fb4c187d04ac918b0a549d6[m
+Author: Xinrea <xinreas@outlook.com>
+Date:   Mon May 2 03:33:31 2022 +0000
+
+    feat: Set addresses from env & update doc
+
+[33mcommit 265fd19f346589cac0db1f575496385eaf1f1125[m
+Author: Xinrea <xinreas@outlook.com>
+Date:   Mon May 2 02:55:56 2022 +0000
+
+    fix: Fix empty taglist & add debug switch
+
+[33mcommit d38adc9d1c4614a24d608723aaf15be040bca556[m
+Author: Xinrea <xinreas@outlook.com>
+Date:   Mon May 2 02:33:51 2022 +0000
+
+    feat: Remove GitHub workflow & Embed into backend
+
+[33mcommit cb33d488e4e139bee54bade6e6cbda8d7394cc63[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Mon Mar 14 21:27:25 2022 +0800
+
+    [feature][admin] Update content preview style
+
+[33mcommit 07cddcce112bad6758e6d9707104650527042d34[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Mon Mar 14 21:20:18 2022 +0800
+
+    [feature] Change card content line height
+
+[33mcommit d112ae2cb0a2886febba4e32cbf329306c62d9d2[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Wed Mar 9 20:04:15 2022 +0800
+
+    [bugfix] Fix Logout
+
+[33mcommit 6fa8036f534d4f3be04b4d51d1e613ccf48da397[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Tue Mar 8 23:43:00 2022 +0800
+
+    [feature] Update card style
+
+[33mcommit 545e86f74b86ff83507efeb6d16a00fd4f6795b3[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Tue Mar 8 23:38:45 2022 +0800
+
+    [feature] Update style
+
+[33mcommit a7f99b0c0155695f22a8378123250002b6779648[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Tue Mar 8 22:22:26 2022 +0800
+
+    [feature] Update OSS
+
+[33mcommit d6a7ed5f7181f5ec5685bff2eab124149049205d[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Tue Mar 8 20:04:53 2022 +0800
+
+    Update node.js.yml
+
+[33mcommit 349af83183aab8ee8042307c776f01ff67aeca4e[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Sat Mar 5 19:56:43 2022 +0800
+
+    [ci/cd] Update node.js.yml
+
+[33mcommit 931ca06f6371ad7ad1b23c4fb8d28e6ea888c5da[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Sat Mar 5 19:53:23 2022 +0800
+
+    [ci/cd] Update node.js.yml
+
+[33mcommit 6eefe294855b95672c855fa7dddc6fbb6cffa7fe[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Sat Mar 5 19:45:55 2022 +0800
+
+    [refactor] Remove Unused
+
+[33mcommit 30113453e3bdd9bd739d7adfe6c84e816c4ce88b[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Sat Mar 5 19:42:08 2022 +0800
+
+    Create node.js.yml
+
+[33mcommit 0fa9c24e32c4d015bc799537ab11acd3a7bc2ae0[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Sat Mar 5 19:36:18 2022 +0800
+
+    Update .gitignore
+
+[33mcommit 7a00ec40c65a284d1cc53a504355ceeace5c9a6f[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Sat Mar 5 19:32:39 2022 +0800
+
+    [feature] Update ENDPOINT
+
+[33mcommit ebac1b18a753ca1bfcb9d97ff6530e9320f9f34e[m
+Author: Xinrea <s11s@vip.qq.com>
+Date:   Fri Mar 4 2

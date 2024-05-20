@@ -79,6 +79,8 @@
     let data = new FormData();
     if (tagValue) {
       data.append("tag_id", tagValue.value.id);
+    } else if(items.length > 0){
+      data.append("tag_id", items[0].value.id);
     } else {
       alert("请选择话题");
       return;

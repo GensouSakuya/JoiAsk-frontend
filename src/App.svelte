@@ -13,6 +13,7 @@
   window.callPreview = (url) => {
     previewURL = url
   };
+  document.title = window._config?.title ?? "提问箱"
   let loggedIn = false;
   function auth() {
     fetch("/api/info", {
