@@ -15,7 +15,9 @@
 
 <div class="navbar">
   <div class="h-full items-center">
-  <div id="logo"></div>
+  <a href="/admin">
+    <div id="logo"></div>
+  </a>
   <TitleButton content="提问" {current} on:click={changeCurrent} />
   <TitleButton content="话题" {current} on:click={changeCurrent} />
   <TitleButton content="彩虹屁" {current} on:click={changeCurrent} />
